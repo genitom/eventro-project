@@ -1,0 +1,31 @@
+.hero{
+    background: url(../../images/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: -50px; 
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-header{
+    max-width: 400px;
+    text-align: center;
+}
+.hero-header__title{
+    min-height: 120px;
+    color: #fff;
+    font-size: 2.5rem;
+    > span{
+        display: block; 
+        color: #007cff; 
+        padding-top: 5px;
+        font-size: 3rem;
+    }
+}
+.hero-header--btn{
+     transform: translateX(67%);
+    
+}

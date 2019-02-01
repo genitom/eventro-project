@@ -1,0 +1,18 @@
+.btn{
+    display:table-cell;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    font-size: 0.8rem;
+    &:hover{
+        background-color: #007cff;
+        border: none;
+    }
+}

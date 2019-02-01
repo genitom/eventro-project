@@ -1,0 +1,26 @@
+.location{
+    padding-top: 100px;
+}
+.location-header{
+    padding-bottom: 100px;
+}
+.location-header__line{
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: #007cff;
+    position: relative;
+    margin-top: 10px;
+    &:after{
+        content: '';
+        display: block;
+        width: 290px;
+        height: 1px;
+        background-color: #cccccc;
+        position: absolute;
+        top: 4px;
+    }
+}
+.location-box{
+    padding-top: 30px;
+}

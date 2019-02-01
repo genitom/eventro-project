@@ -1,0 +1,37 @@
+.score-box{
+    max-width: 770px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    top: -95px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+.score-item{
+    border: 1px solid #cccccc;
+    min-height: 200px;
+    width: 25%;
+    overflow: hidden;
+    &:first-child{
+        border-radius: 10px 0 0 0;
+    }
+    &:last-child{
+        border-radius: 0 10px 0 0;
+    }
+}
+.score-item > span{
+        font-size: 35px;
+        font-weight: bold;
+        display: block;
+        padding-top: 50px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        > small{
+            display: block;
+            font-weight: 400;
+            font-size: 1.4rem;
+            letter-spacing: -1px;
+        }
+}
+

@@ -1,0 +1,11 @@
+ /* [data-anime]{
+    opacity: 0;
+    transition: 0.5s;
+}
+[data-anime="top"]{
+    transform: translate3d(0,-50px,0);
+}
+[data-anime="top"].anime{
+    transform:translate3d(0,0,0);
+    opacity:1;
+} */

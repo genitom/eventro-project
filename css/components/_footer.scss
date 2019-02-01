@@ -1,0 +1,26 @@
+.footer{
+    background-color: black;
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 150px;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer-row > p{
+    color: #fff;
+    font-size: 1.4rem;
+}
+.footer-row > p:last-child{
+    font-size: 1rem;
+    padding-top: 10px;
+}
+.footer-row > p > a{
+    color: #007cff;
+    &:visited{
+        color: #007cff;
+    }
+}
